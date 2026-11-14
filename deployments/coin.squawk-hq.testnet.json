@@ -1,0 +1,22 @@
+{
+  "account": "coin.squawk-hq.testnet",
+  "network": "testnet",
+  "preset": "daily",
+  "code_sha256": "c0dd88f1860a303b94f7d8d3d1dfff5758bf6ea50d2920bb487d940cb4b68657",
+  "code_bytes": 271911,
+  "genesis_ms": 1794355200000,
+  "rules": {
+    "yocto_per_unit": "1000",
+    "min_feed": "1000000000000000000",
+    "cut_max_bps": 2500,
+    "cut_min_bps": 1000,
+    "cut_step_bps": 100,
+    "late_weight_bps": 2500,
+    "social": "social",
+    "round_ms": "86400000",
+    "target": "500000000000000000000",
+    "wake_bounty": "10000000000000000000000"
+  },
+  "launched_tx": "6pQS8JFnEVV2W5AEp6JNpj41MD2U5NqfiR3pdJYhtgWB",
+  "locked_tx": "HLbzSKsTL9VpjsJ4EsSMP8p4H86de334yTMAMR8Kxz7e"
+}

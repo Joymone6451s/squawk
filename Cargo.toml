@@ -1,0 +1,31 @@
+[workspace]
+resolver = "3"
+members = ["contract", "sim"]
+
+[workspace.package]
+version = "1.0.0"
+edition = "2024"
+rust-version = "1.95"
+license = "MIT"
+
+[workspace.dependencies]
+near-sdk = "5.30.1"
+near-contract-standards = "5.30.1"
+
+[profile.release]
+codegen-units = 1
+# Optimise for small code size: every byte of wasm is paid for in locked NEAR.
+opt-level = "z"
+lto = true
+debug = false
+panic = "abort"
+# Arithmetic that overflows stops the call instead of wrapping.
+overflow-checks = true
+
+# For the simulator only. It runs the contract natively, millions of times, so it wants speed
+# rather than a small binary, and a build that doesn't take a quarter of an hour.
+[profile.sim]
+inherits = "dev"
+opt-level = 2
+debug = false
+overflow-checks = true

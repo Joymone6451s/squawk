@@ -1,0 +1,17 @@
+{
+  "name": "squawk",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A NEAR memecoin whose contract is a keyless near.social account. Feed it to tip any post; each round it quotes the best-fed one.",
+  "license": "MIT",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "verify": "node scripts/verify.mjs",
+    "status": "node scripts/status.mjs",
+    "charts": "node sim/charts.mjs"
+  },
+  "dependencies": {
+    "near-api-js": "7.4.0"
+  }
+}

@@ -1,0 +1,11 @@
+﻿{
+  "name": "squawk-video-tools",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Records the demo: a headless browser on the real page, and a stand-in wallet that signs with a testnet key.",
+  "dependencies": {
+    "near-api-js": "7.4.0",
+    "playwright-core": "1.65.0"
+  }
+}

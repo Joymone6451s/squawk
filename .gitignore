@@ -1,0 +1,13 @@
+# Dependencies and build output
+node_modules/
+web/dist/
+target/
+
+# Local-only: the submission kit and the demo cast. Never commit these.
+# (The demo video is committed in media/.)
+private/
+
+# Editor and tool state
+.claude/
+*.log
+.env

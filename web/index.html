@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SQUAWK</title>
+    <meta name="description" content="A parrot on near.social that nobody owns. Feed it crackers to tip any post. Every round it squawks the best-fed one, all by itself." />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'%3E%3Ccircle cx='48' cy='48' r='48' fill='%23ffd447'/%3E%3Cpath d='M24 74c-6-28 4-54 28-54 15 0 24 11 24 24 0 18-14 32-32 32-8 0-15-1-20-2z' fill='%2312a36d'/%3E%3Cpath d='M60 34c9 0 15 6 15 13 0 7-4 11-9 13 1-7-1-11-6-13z' fill='%23ff6b35'/%3E%3Ccircle cx='52' cy='37' r='6' fill='%23fff'/%3E%3Ccircle cx='53.5' cy='37' r='3' fill='%231b1b1f'/%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Nunito+Sans:ital,opsz,wght@0,6..12,400;0,6..12,600;0,6..12,700;1,6..12,400&family=JetBrains+Mono:wght@400;600&display=swap" />
+  </head>
+  <body>
+    <header class="top">
+      <a class="mark" href="./" aria-label="SQUAWK home">
+        <span class="mark-bird" aria-hidden="true"></span>
+        <span class="mark-word">SQUAWK</span>
+      </a>
+      <p class="tag">The parrot nobody owns</p>
+      <div class="top-actions">
+        <div id="coin-switch" class="switch" role="group" aria-label="Which coin"></div>
+        <span id="net" class="net"></span>
+        <button id="wallet" class="btn ghost" type="button">Connect wallet</button>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <p id="notice" class="notice" hidden></p>
+
+      <section class="stage" aria-labelledby="round-title">
+        <div class="perch">
+          <div id="polly" class="polly" role="img" aria-label="Polly the parrot"></div>
+          <blockquote id="speech" class="speech">Waking up...</blockquote>
+        </div>
+        <div class="card round">
+          <div class="round-head">
+            <h1 id="round-title">Round</h1>
+            <span id="mood" class="pill" data-mood="loading">Loading</span>
+          </div>
+          <p id="coin-id" class="coin-id"></p>
+          <div class="meter" aria-live="polite">
+            <div class="meter-nums"><strong id="fed">0</strong><span> of <span id="target">0</span> crackers fed</span></div>
+            <div class="meter-bar"><div id="bar" class="meter-fill"></div></div>
+            <p id="meter-note" class="meter-note"></p>
+          </div>
+          <dl class="vitals">
+            <div><dt>Round ends in</dt><dd id="clock" class="big">--:--</dd></div>
+            <div><dt>Streak</dt><dd id="streak" class="big">0</dd></div>
+            <div><dt>Best streak</dt><dd id="best" class="big">0</dd></div>
+            <div><dt>Polly's cut</dt><dd id="cut">--</dd></div>
+            <div><dt>A cracker fed now counts</dt><dd id="weight">--</dd></div>
+            <div><dt>Squawks so far</dt><dd id="squawk-count">0</dd></div>
+          </dl>
+          <div id="wake" class="wake" hidden>
+            <p id="wake-text"></p>
+            <button id="wake-btn" class="btn primary" type="button">Wake Polly</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="how" aria-label="How it works">
+        <article><span class="step">1</span><h3>Bake</h3><p>Turn NEAR into crackers at a fixed price. The NEAR waits in the nest.</p></article>
+        <article><span class="step">2</span><h3>Feed</h3><p>Burn crackers on any near.social post. The writer is paid in NEAR at once.</p></article>
+        <article><span class="step">3</span><h3>Squawk</h3><p>When the round ends, Polly quotes the best-fed post by herself.</p></article>
+      </section>
+
+      <div class="two">
+        <section class="card" aria-labelledby="piles-title">
+          <div class="card-head">
+            <h2 id="piles-title">This round's piles</h2>
+            <p>The heaviest pile gets squawked. Early crackers weigh more.</p>
+          </div>
+          <ol id="pile-list" class="piles"></ol>
+          <p id="pile-empty" class="empty">Nobody has fed Polly this round yet. Pick a post below and be the first.</p>
+        </section>
+
+        <section class="card purse" aria-labelledby="purse-title">
+          <div class="card-head">
+            <h2 id="purse-title">Your crackers</h2>
+            <p id="purse-sub">Connect a wallet to bake and feed.</p>
+          </div>
+          <p class="balance"><strong id="balance">0</strong> <span>crackers</span></p>
+          <form id="bake-form" class="bake" autocomplete="off">
+            <label for="bake-near">Bake with</label>
+            <div class="field"><input id="bake-near" inputmode="decimal" value="0.5" aria-describedby="bake-hint" /><span>NEAR</span></div>
+            <button id="bake" class="btn primary" type="submit">Bake crackers</button>
+          </form>
+          <p id="bake-hint" class="hint"></p>
+          <dl id="my-stats" class="mini" hidden>
+            <div><dt>You have given writers</dt><dd id="my-given">0 NEAR</dd></div>
+            <div><dt>Your posts have earned</dt><dd id="my-earned">0 NEAR</dd></div>
+          </dl>
+        </section>
+      </div>
+
+      <section class="card" aria-labelledby="find-title">
+        <div class="card-head">
+          <h2 id="find-title">Find a post to feed</h2>
+          <p id="find-sub"></p>
+        </div>
+        <div class="tabs" role="tablist">
+          <button class="tab" role="tab" data-tab="latest" aria-selected="true" type="button">Latest posts</button>
+          <button class="tab" role="tab" data-tab="account" aria-selected="false" type="button">By account</button>
+          <button class="tab" role="tab" data-tab="link" aria-selected="false" type="button">Paste a post</button>
+        </div>
+        <form id="find-form" class="find-form" hidden autocomplete="off">
+          <input id="find-input" aria-label="Account or post" />
+          <button class="btn" type="submit">Look</button>
+        </form>
+        <div id="feed-list" class="posts"></div>
+        <p id="feed-empty" class="empty" hidden></p>
+      </section>
+
+      <section class="card" aria-labelledby="said-title">
+        <div class="card-head">
+          <h2 id="said-title">What Polly said</h2>
+          <p>Every finished round. A squawk is a real near.social post, sent by the contract itself.</p>
+        </div>
+        <ol id="squawk-list" class="said"></ol>
+        <p id="said-empty" class="empty">No round has finished yet.</p>
+      </section>
+
+      <section class="card" aria-labelledby="books-title">
+        <div class="card-head">
+          <h2 id="books-title">The books</h2>
+          <p>Read straight from the contract. Nothing here comes from a server.</p>
+        </div>
+        <dl id="books" class="tiles"></dl>
+        <ul id="checks" class="checks"></ul>
+      </section>
+
+      <section class="card" aria-labelledby="log-title">
+        <div class="card-head">
+          <h2 id="log-title">Every mint and burn</h2>
+          <p>Crackers are only made by baking and only destroyed by feeding. This is the whole list.</p>
+        </div>
+        <div class="table-wrap">
+          <table class="log">
+            <thead><tr><th>When</th><th>What</th><th>Who</th><th>Post</th><th class="num">Crackers</th><th class="num">NEAR</th></tr></thead>
+            <tbody id="log-rows"></tbody>
+          </table>
+        </div>
+        <div class="pager">
+          <button id="log-newer" class="btn small" type="button">Newer</button>
+          <span id="log-page"></span>
+          <button id="log-older" class="btn small" type="button">Older</button>
+        </div>
+      </section>
+
+      <div class="two">
+        <section class="card" aria-labelledby="writers-title">
+          <div class="card-head"><h2 id="writers-title">Writers paid</h2><p>NEAR sent to each writer by the flock.</p></div>
+          <ol id="writers" class="board"></ol>
+        </section>
+        <section class="card" aria-labelledby="patrons-title">
+          <div class="card-head"><h2 id="patrons-title">The flock</h2><p>Who fed Polly, and how much they gave.</p></div>
+          <ol id="patrons" class="board"></ol>
+        </section>
+      </div>
+
+      <section class="card" aria-labelledby="rules-title">
+        <div class="card-head">
+          <h2 id="rules-title">The rules, fixed at launch</h2>
+          <p>Nobody can change them. There is no owner and no admin key.</p>
+        </div>
+        <dl id="rules" class="rules"></dl>
+        <p id="keys" class="proof"></p>
+      </section>
+
+      <footer class="foot">
+        <p>SQUAWK is an experiment. Crackers can't be turned back into NEAR, and their price can never rise above the baking price.</p>
+        <p id="links"></p>
+      </footer>
+    </main>
+
+    <dialog id="feed-dialog" class="dialog">
+      <form id="feed-form" method="dialog" autocomplete="off">
+        <h2>Feed Polly for this post</h2>
+        <div id="feed-post" class="post compact"></div>
+        <label for="feed-amount">How many crackers?</label>
+        <div class="field"><input id="feed-amount" inputmode="decimal" value="25" /><span>crackers</span></div>
+        <div class="chips" id="feed-chips"></div>
+        <ul id="feed-math" class="math"></ul>
+        <p id="feed-error" class="error" hidden></p>
+        <div class="dialog-actions">
+          <button id="feed-cancel" class="btn ghost" type="button">Cancel</button>
+          <button id="feed-go" class="btn primary" type="submit">Feed</button>
+        </div>
+      </form>
+    </dialog>
+
+    <div id="toast" class="toast" role="status" hidden></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

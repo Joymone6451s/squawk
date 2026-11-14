@@ -1,0 +1,22 @@
+{
+  "account": "fast.squawk-hq.testnet",
+  "network": "testnet",
+  "preset": "speedrun",
+  "code_sha256": "c0dd88f1860a303b94f7d8d3d1dfff5758bf6ea50d2920bb487d940cb4b68657",
+  "code_bytes": 271911,
+  "genesis_ms": 1794397800000,
+  "rules": {
+    "yocto_per_unit": "1000",
+    "min_feed": "1000000000000000000",
+    "cut_max_bps": 2500,
+    "cut_min_bps": 1000,
+    "cut_step_bps": 100,
+    "late_weight_bps": 2500,
+    "social": "social",
+    "round_ms": "300000",
+    "target": "150000000000000000000",
+    "wake_bounty": "2000000000000000000000"
+  },
+  "launched_tx": "BimSqmrqm4UfJX9WiJJPYXXwvDi9AH3AeannLSkR5Mjv",
+  "locked_tx": "2p1nc5cMi8hoEMDCqRgh6HW4qDDySR9QZExJPvTXtAvz"
+}

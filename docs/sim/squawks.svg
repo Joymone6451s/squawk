@@ -1,0 +1,544 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1168 378" width="1168" height="378" role="img" aria-labelledby="t d">
+<title id="t">Which days Polly squawked, by scenario</title>
+<desc id="d">A grid of 60 days by eight scenarios. A steady flock of about 14 tippers a day squawks on roughly two days in three. A fading flock stops squawking after about two weeks. A ghost town never squawks. With a self-promoter present Polly squawks every day, and the promoter's post wins on the days marked in orange.</desc>
+<style>
+  .surface { fill: #fcfcfb; }
+  .ink { fill: #0b0b0b; }
+  .ink2 { fill: #52514e; }
+  .muted { fill: #898781; }
+  .grid { stroke: #e1e0d9; stroke-width: 1; }
+  .axis { stroke: #c3c2b7; stroke-width: 1; }
+  .s1 { fill: #2a78d6; }
+  .s1-line { stroke: #2a78d6; stroke-width: 2; fill: none; stroke-linejoin: round; stroke-linecap: round; }
+  .s1-wash { fill: #2a78d6; fill-opacity: 0.1; }
+  .s2 { fill: #eb6834; }
+  .quiet { fill: #e1e0d9; }
+  .ring { stroke: #fcfcfb; stroke-width: 2; }
+  text { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
+  .title { font-size: 15px; font-weight: 600; }
+  .label { font-size: 12px; }
+  .tick { font-size: 11px; font-variant-numeric: tabular-nums; }
+  .inside { fill: #ffffff; font-size: 11px; font-weight: 600; }
+  @media (prefers-color-scheme: dark) {
+    .surface { fill: #1a1a19; }
+    .ink { fill: #f0efec; }
+    .ink2 { fill: #c3c2b7; }
+    .grid { stroke: #2c2c2a; }
+    .axis { stroke: #383835; }
+    .s1 { fill: #3987e5; }
+    .s1-line { stroke: #3987e5; }
+    .s1-wash { fill: #3987e5; }
+    .s2 { fill: #d95926; }
+    .quiet { fill: #2c2c2a; }
+    .ring { stroke: #1a1a19; }
+  }</style>
+<rect class="surface" width="1168" height="378" rx="8"/>
+<text class="ink title" x="24" y="30" style="font-size:17px">Which days Polly squawked</text>
+<text class="ink2 label" x="24" y="50">One square a day for 60 days, at the launch rules.</text>
+<rect class="s1" x="24" y="68" width="12" height="12" rx="2"/><text class="ink2 label" x="42" y="78">Polly squawked the flock's pick</text>
+<rect class="s2" x="262.4" y="68" width="12" height="12" rx="2"/><text class="ink2 label" x="280.4" y="78">Polly squawked the self-promoter's post</text>
+<rect class="quiet" x="552" y="68" width="12" height="12" rx="2"/><text class="ink2 label" x="570" y="78">No squawk: the flock fed less than the target</text>
+<text class="ink label" x="24" y="117" style="font-size:13px">Steady flock</text>
+<rect class="s1" x="232" y="104" width="12" height="18" rx="2"><title>Steady flock, day 1: 617 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="246" y="104" width="12" height="18" rx="2"><title>Steady flock, day 2: 547 crackers fed, squawked the flock's pick</title></rect>
+<rect class="quiet" x="260" y="104" width="12" height="18" rx="2"><title>Steady flock, day 3: 433 crackers fed, no squawk</title></rect>
+<rect class="s1" x="274" y="104" width="12" height="18" rx="2"><title>Steady flock, day 4: 734 crackers fed, squawked the flock's pick</title></rect>
+<rect class="quiet" x="288" y="104" width="12" height="18" rx="2"><title>Steady flock, day 5: 441 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="302" y="104" width="12" height="18" rx="2"><title>Steady flock, day 6: 177 crackers fed, no squawk</title></rect>
+<rect class="s1" x="316" y="104" width="12" height="18" rx="2"><title>Steady flock, day 7: 777 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="330" y="104" width="12" height="18" rx="2"><title>Steady flock, day 8: 918 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="344" y="104" width="12" height="18" rx="2"><title>Steady flock, day 9: 775 crackers fed, squawked the flock's pick</title></rect>
+<rect class="quiet" x="358" y="104" width="12" height="18" rx="2"><title>Steady flock, day 10: 466 crackers fed, no squawk</title></rect>
+<rect class="s1" x="372" y="104" width="12" height="18" rx="2"><title>Steady flock, day 11: 1167 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="386" y="104" width="12" height="18" rx="2"><title>Steady flock, day 12: 1004 crackers fed, squawked the flock's pick</title></rect>
+<rect class="quiet" x="400" y="104" width="12" height="18" rx="2"><title>Steady flock, day 13: 484 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="414" y="104" width="12" height="18" rx="2"><title>Steady flock, day 14: 483 crackers fed, no squawk</title></rect>
+<rect class="s1" x="428" y="104" width="12" height="18" rx="2"><title>Steady flock, day 15: 781 crackers fed, squawked the flock's pick</title></rect>
+<rect class="quiet" x="442" y="104" width="12" height="18" rx="2"><title>Steady flock, day 16: 498 crackers fed, no squawk</title></rect>
+<rect class="s1" x="456" y="104" width="12" height="18" rx="2"><title>Steady flock, day 17: 894 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="470" y="104" width="12" height="18" rx="2"><title>Steady flock, day 18: 858 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="484" y="104" width="12" height="18" rx="2"><title>Steady flock, day 19: 598 crackers fed, squawked the flock's pick</title></rect>
+<rect class="quiet" x="498" y="104" width="12" height="18" rx="2"><title>Steady flock, day 20: 421 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="512" y="104" width="12" height="18" rx="2"><title>Steady flock, day 21: 305 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="526" y="104" width="12" height="18" rx="2"><title>Steady flock, day 22: 472 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="540" y="104" width="12" height="18" rx="2"><title>Steady flock, day 23: 482 crackers fed, no squawk</title></rect>
+<rect class="s1" x="554" y="104" width="12" height="18" rx="2"><title>Steady flock, day 24: 544 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="568" y="104" width="12" height="18" rx="2"><title>Steady flock, day 25: 896 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="582" y="104" width="12" height="18" rx="2"><title>Steady flock, day 26: 504 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="596" y="104" width="12" height="18" rx="2"><title>Steady flock, day 27: 686 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="610" y="104" width="12" height="18" rx="2"><title>Steady flock, day 28: 761 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="624" y="104" width="12" height="18" rx="2"><title>Steady flock, day 29: 954 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="638" y="104" width="12" height="18" rx="2"><title>Steady flock, day 30: 916 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="652" y="104" width="12" height="18" rx="2"><title>Steady flock, day 31: 912 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="666" y="104" width="12" height="18" rx="2"><title>Steady flock, day 32: 581 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="680" y="104" width="12" height="18" rx="2"><title>Steady flock, day 33: 733 crackers fed, squawked the flock's pick</title></rect>
+<rect class="quiet" x="694" y="104" width="12" height="18" rx="2"><title>Steady flock, day 34: 308 crackers fed, no squawk</title></rect>
+<rect class="s1" x="708" y="104" width="12" height="18" rx="2"><title>Steady flock, day 35: 949 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="722" y="104" width="12" height="18" rx="2"><title>Steady flock, day 36: 709 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="736" y="104" width="12" height="18" rx="2"><title>Steady flock, day 37: 1094 crackers fed, squawked the flock's pick</title></rect>
+<rect class="quiet" x="750" y="104" width="12" height="18" rx="2"><title>Steady flock, day 38: 480 crackers fed, no squawk</title></rect>
+<rect class="s1" x="764" y="104" width="12" height="18" rx="2"><title>Steady flock, day 39: 1273 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="778" y="104" width="12" height="18" rx="2"><title>Steady flock, day 40: 599 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="792" y="104" width="12" height="18" rx="2"><title>Steady flock, day 41: 794 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="806" y="104" width="12" height="18" rx="2"><title>Steady flock, day 42: 715 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="820" y="104" width="12" height="18" rx="2"><title>Steady flock, day 43: 917 crackers fed, squawked the flock's pick</title></rect>
+<rect class="quiet" x="834" y="104" width="12" height="18" rx="2"><title>Steady flock, day 44: 474 crackers fed, no squawk</title></rect>
+<rect class="s1" x="848" y="104" width="12" height="18" rx="2"><title>Steady flock, day 45: 934 crackers fed, squawked the flock's pick</title></rect>
+<rect class="quiet" x="862" y="104" width="12" height="18" rx="2"><title>Steady flock, day 46: 389 crackers fed, no squawk</title></rect>
+<rect class="s1" x="876" y="104" width="12" height="18" rx="2"><title>Steady flock, day 47: 674 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="890" y="104" width="12" height="18" rx="2"><title>Steady flock, day 48: 989 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="904" y="104" width="12" height="18" rx="2"><title>Steady flock, day 49: 626 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="918" y="104" width="12" height="18" rx="2"><title>Steady flock, day 50: 1209 crackers fed, squawked the flock's pick</title></rect>
+<rect class="quiet" x="932" y="104" width="12" height="18" rx="2"><title>Steady flock, day 51: 484 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="946" y="104" width="12" height="18" rx="2"><title>Steady flock, day 52: 350 crackers fed, no squawk</title></rect>
+<rect class="s1" x="960" y="104" width="12" height="18" rx="2"><title>Steady flock, day 53: 644 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="974" y="104" width="12" height="18" rx="2"><title>Steady flock, day 54: 563 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="988" y="104" width="12" height="18" rx="2"><title>Steady flock, day 55: 524 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="1002" y="104" width="12" height="18" rx="2"><title>Steady flock, day 56: 647 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="1016" y="104" width="12" height="18" rx="2"><title>Steady flock, day 57: 595 crackers fed, squawked the flock's pick</title></rect>
+<rect class="quiet" x="1030" y="104" width="12" height="18" rx="2"><title>Steady flock, day 58: 427 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="1044" y="104" width="12" height="18" rx="2"><title>Steady flock, day 59: 230 crackers fed, no squawk</title></rect>
+<rect class="s1" x="1058" y="104" width="12" height="18" rx="2"><title>Steady flock, day 60: 1067 crackers fed, squawked the flock's pick</title></rect>
+<text class="ink tick" x="1082" y="117" style="font-size:12px">41 of 60</text>
+<text class="ink label" x="24" y="147" style="font-size:13px">Slow start, then it catches on</text>
+<rect class="quiet" x="232" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 1: 161 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="246" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 2: 362 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="260" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 3: 0 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="274" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 4: 135 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="288" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 5: 230 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="302" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 6: 228 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="316" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 7: 143 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="330" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 8: 214 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="344" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 9: 261 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="358" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 10: 154 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="372" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 11: 271 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="386" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 12: 140 crackers fed, no squawk</title></rect>
+<rect class="s1" x="400" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 13: 546 crackers fed, squawked the flock's pick</title></rect>
+<rect class="quiet" x="414" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 14: 463 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="428" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 15: 120 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="442" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 16: 440 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="456" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 17: 415 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="470" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 18: 490 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="484" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 19: 315 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="498" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 20: 329 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="512" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 21: 469 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="526" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 22: 381 crackers fed, no squawk</title></rect>
+<rect class="s1" x="540" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 23: 879 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="554" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 24: 644 crackers fed, squawked the flock's pick</title></rect>
+<rect class="quiet" x="568" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 25: 464 crackers fed, no squawk</title></rect>
+<rect class="s1" x="582" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 26: 780 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="596" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 27: 642 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="610" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 28: 626 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="624" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 29: 739 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="638" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 30: 1115 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="652" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 31: 802 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="666" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 32: 1513 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="680" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 33: 1268 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="694" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 34: 1405 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="708" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 35: 968 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="722" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 36: 1048 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="736" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 37: 1473 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="750" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 38: 802 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="764" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 39: 1347 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="778" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 40: 1501 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="792" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 41: 1456 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="806" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 42: 1072 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="820" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 43: 1538 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="834" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 44: 1578 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="848" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 45: 2199 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="862" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 46: 1229 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="876" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 47: 1820 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="890" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 48: 1902 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="904" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 49: 1710 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="918" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 50: 1547 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="932" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 51: 1942 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="946" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 52: 1796 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="960" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 53: 1967 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="974" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 54: 1836 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="988" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 55: 1348 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="1002" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 56: 2315 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="1016" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 57: 1346 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="1030" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 58: 1846 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="1044" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 59: 1354 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="1058" y="134" width="12" height="18" rx="2"><title>Slow start, then it catches on, day 60: 1832 crackers fed, squawked the flock's pick</title></rect>
+<text class="ink tick" x="1082" y="147" style="font-size:12px">38 of 60</text>
+<text class="ink label" x="24" y="177" style="font-size:13px">Hype, then it fades</text>
+<rect class="s1" x="232" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 1: 2124 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="246" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 2: 950 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="260" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 3: 754 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="274" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 4: 908 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="288" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 5: 759 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="302" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 6: 1261 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="316" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 7: 1398 crackers fed, squawked the flock's pick</title></rect>
+<rect class="quiet" x="330" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 8: 400 crackers fed, no squawk</title></rect>
+<rect class="s1" x="344" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 9: 605 crackers fed, squawked the flock's pick</title></rect>
+<rect class="quiet" x="358" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 10: 231 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="372" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 11: 306 crackers fed, no squawk</title></rect>
+<rect class="s1" x="386" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 12: 847 crackers fed, squawked the flock's pick</title></rect>
+<rect class="quiet" x="400" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 13: 476 crackers fed, no squawk</title></rect>
+<rect class="s1" x="414" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 14: 519 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="428" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 15: 932 crackers fed, squawked the flock's pick</title></rect>
+<rect class="quiet" x="442" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 16: 228 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="456" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 17: 352 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="470" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 18: 262 crackers fed, no squawk</title></rect>
+<rect class="s1" x="484" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 19: 515 crackers fed, squawked the flock's pick</title></rect>
+<rect class="quiet" x="498" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 20: 191 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="512" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 21: 335 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="526" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 22: 153 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="540" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 23: 166 crackers fed, no squawk</title></rect>
+<rect class="s1" x="554" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 24: 571 crackers fed, squawked the flock's pick</title></rect>
+<rect class="quiet" x="568" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 25: 189 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="582" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 26: 163 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="596" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 27: 150 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="610" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 28: 146 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="624" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 29: 223 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="638" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 30: 328 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="652" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 31: 31 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="666" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 32: 92 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="680" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 33: 129 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="694" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 34: 135 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="708" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 35: 75 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="722" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 36: 91 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="736" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 37: 32 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="750" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 38: 50 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="764" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 39: 200 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="778" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 40: 31 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="792" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 41: 0 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="806" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 42: 35 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="820" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 43: 31 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="834" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 44: 199 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="848" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 45: 0 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="862" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 46: 72 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="876" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 47: 0 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="890" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 48: 0 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="904" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 49: 0 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="918" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 50: 31 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="932" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 51: 0 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="946" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 52: 0 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="960" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 53: 99 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="974" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 54: 0 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="988" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 55: 88 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="1002" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 56: 0 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="1016" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 57: 0 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="1030" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 58: 0 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="1044" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 59: 0 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="1058" y="164" width="12" height="18" rx="2"><title>Hype, then it fades, day 60: 0 crackers fed, no squawk</title></rect>
+<text class="ink tick" x="1082" y="177" style="font-size:12px">13 of 60</text>
+<text class="ink label" x="24" y="207" style="font-size:13px">Quiet weekends</text>
+<rect class="s1" x="232" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 1: 617 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="246" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 2: 547 crackers fed, squawked the flock's pick</title></rect>
+<rect class="quiet" x="260" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 3: 433 crackers fed, no squawk</title></rect>
+<rect class="s1" x="274" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 4: 734 crackers fed, squawked the flock's pick</title></rect>
+<rect class="quiet" x="288" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 5: 441 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="302" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 6: 0 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="316" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 7: 143 crackers fed, no squawk</title></rect>
+<rect class="s1" x="330" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 8: 535 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="344" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 9: 599 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="358" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 10: 1178 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="372" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 11: 658 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="386" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 12: 706 crackers fed, squawked the flock's pick</title></rect>
+<rect class="quiet" x="400" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 13: 105 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="414" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 14: 79 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="428" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 15: 500 crackers fed, no squawk</title></rect>
+<rect class="s1" x="442" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 16: 782 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="456" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 17: 596 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="470" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 18: 721 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="484" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 19: 598 crackers fed, squawked the flock's pick</title></rect>
+<rect class="quiet" x="498" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 20: 82 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="512" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 21: 82 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="526" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 22: 270 crackers fed, no squawk</title></rect>
+<rect class="s1" x="540" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 23: 1011 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="554" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 24: 834 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="568" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 25: 659 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="582" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 26: 934 crackers fed, squawked the flock's pick</title></rect>
+<rect class="quiet" x="596" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 27: 129 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="610" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 28: 50 crackers fed, no squawk</title></rect>
+<rect class="s1" x="624" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 29: 523 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="638" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 30: 680 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="652" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 31: 699 crackers fed, squawked the flock's pick</title></rect>
+<rect class="quiet" x="666" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 32: 478 crackers fed, no squawk</title></rect>
+<rect class="s1" x="680" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 33: 551 crackers fed, squawked the flock's pick</title></rect>
+<rect class="quiet" x="694" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 34: 42 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="708" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 35: 196 crackers fed, no squawk</title></rect>
+<rect class="s1" x="722" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 36: 792 crackers fed, squawked the flock's pick</title></rect>
+<rect class="quiet" x="736" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 37: 441 crackers fed, no squawk</title></rect>
+<rect class="s1" x="750" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 38: 1223 crackers fed, squawked the flock's pick</title></rect>
+<rect class="quiet" x="764" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 39: 409 crackers fed, no squawk</title></rect>
+<rect class="s1" x="778" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 40: 608 crackers fed, squawked the flock's pick</title></rect>
+<rect class="quiet" x="792" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 41: 58 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="806" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 42: 31 crackers fed, no squawk</title></rect>
+<rect class="s1" x="820" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 43: 738 crackers fed, squawked the flock's pick</title></rect>
+<rect class="quiet" x="834" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 44: 454 crackers fed, no squawk</title></rect>
+<rect class="s1" x="848" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 45: 509 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="862" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 46: 882 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="876" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 47: 547 crackers fed, squawked the flock's pick</title></rect>
+<rect class="quiet" x="890" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 48: 67 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="904" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 49: 162 crackers fed, no squawk</title></rect>
+<rect class="s1" x="918" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 50: 542 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="932" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 51: 549 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="946" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 52: 1120 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="960" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 53: 704 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="974" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 54: 912 crackers fed, squawked the flock's pick</title></rect>
+<rect class="quiet" x="988" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 55: 0 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="1002" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 56: 44 crackers fed, no squawk</title></rect>
+<rect class="s1" x="1016" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 57: 833 crackers fed, squawked the flock's pick</title></rect>
+<rect class="quiet" x="1030" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 58: 417 crackers fed, no squawk</title></rect>
+<rect class="s1" x="1044" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 59: 580 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="1058" y="194" width="12" height="18" rx="2"><title>Quiet weekends, day 60: 523 crackers fed, squawked the flock's pick</title></rect>
+<text class="ink tick" x="1082" y="207" style="font-size:12px">35 of 60</text>
+<text class="ink label" x="24" y="237" style="font-size:13px">One loud self-promoter</text>
+<rect class="s2" x="232" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 1: 865 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s1" x="246" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 2: 897 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s2" x="260" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 3: 711 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="274" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 4: 970 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="288" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 5: 681 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="302" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 6: 545 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s1" x="316" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 7: 927 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="330" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 8: 1214 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="344" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 9: 1094 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s2" x="358" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 10: 833 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s1" x="372" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 11: 1460 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="386" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 12: 1549 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="400" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 13: 808 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s2" x="414" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 14: 748 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s1" x="428" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 15: 1042 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="442" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 16: 753 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s2" x="456" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 17: 1656 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s1" x="470" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 18: 1534 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="484" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 19: 1013 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s2" x="498" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 20: 700 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="512" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 21: 693 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="526" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 22: 895 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="540" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 23: 822 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s1" x="554" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 24: 834 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="568" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 25: 1472 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s2" x="582" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 26: 731 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s1" x="596" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 27: 1015 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="610" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 28: 1070 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="624" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 29: 1412 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="638" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 30: 1443 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="652" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 31: 1406 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="666" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 32: 808 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="680" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 33: 1244 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s2" x="694" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 34: 634 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s1" x="708" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 35: 1243 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="722" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 36: 1112 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="736" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 37: 1355 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s2" x="750" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 38: 730 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s1" x="764" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 39: 2144 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s2" x="778" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 40: 1119 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="792" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 41: 1391 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s1" x="806" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 42: 1044 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="820" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 43: 1299 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s2" x="834" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 44: 787 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s1" x="848" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 45: 1489 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s2" x="862" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 46: 804 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="876" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 47: 1189 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s1" x="890" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 48: 1737 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="904" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 49: 1060 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="918" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 50: 1601 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="932" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 51: 766 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s2" x="946" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 52: 761 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="960" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 53: 1023 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s1" x="974" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 54: 823 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="988" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 55: 715 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s2" x="1002" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 56: 1025 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="1016" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 57: 918 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="1030" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 58: 684 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="1044" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 59: 725 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="1058" y="224" width="12" height="18" rx="2"><title>One loud self-promoter, day 60: 1638 crackers fed, squawked the self-promoter's post</title></rect>
+<text class="ink tick" x="1082" y="237" style="font-size:12px">60 of 60</text>
+<text class="ink label" x="24" y="267" style="font-size:13px">Last-minute sniper</text>
+<rect class="s2" x="232" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 1: 1281 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="246" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 2: 1681 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="260" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 3: 1188 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="274" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 4: 1211 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="288" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 5: 1067 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="302" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 6: 500 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="316" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 7: 1451 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="330" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 8: 1997 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="344" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 9: 1751 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="358" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 10: 1264 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="372" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 11: 2908 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="386" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 12: 2563 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="400" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 13: 1330 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="414" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 14: 1049 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="428" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 15: 1487 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="442" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 16: 1076 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="456" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 17: 2664 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="470" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 18: 3020 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="484" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 19: 1671 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="498" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 20: 958 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="512" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 21: 980 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="526" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 22: 1438 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="540" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 23: 1233 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="554" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 24: 1525 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="568" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 25: 2520 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="582" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 26: 1010 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="596" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 27: 1752 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="610" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 28: 1518 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="624" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 29: 3068 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="638" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 30: 2480 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="652" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 31: 2347 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="666" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 32: 1415 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="680" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 33: 2288 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="694" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 34: 854 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="708" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 35: 1744 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="722" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 36: 1707 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="736" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 37: 2294 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="750" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 38: 1070 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="764" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 39: 3653 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="778" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 40: 1901 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="792" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 41: 2191 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="806" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 42: 2026 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="820" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 43: 2041 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="834" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 44: 1080 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="848" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 45: 2390 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="862" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 46: 932 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="876" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 47: 1861 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="890" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 48: 2975 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="904" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 49: 1890 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="918" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 50: 2381 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="932" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 51: 1108 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="946" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 52: 1016 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="960" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 53: 1255 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="974" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 54: 1448 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="988" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 55: 1036 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="1002" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 56: 1085 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="1016" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 57: 1356 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="1030" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 58: 845 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="1044" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 59: 653 crackers fed, squawked the self-promoter's post</title></rect>
+<rect class="s2" x="1058" y="254" width="12" height="18" rx="2"><title>Last-minute sniper, day 60: 2474 crackers fed, squawked the self-promoter's post</title></rect>
+<text class="ink tick" x="1082" y="267" style="font-size:12px">60 of 60</text>
+<text class="ink label" x="24" y="297" style="font-size:13px">Sybil swarm</text>
+<rect class="s1" x="232" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 1: 617 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="246" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 2: 547 crackers fed, squawked the flock's pick</title></rect>
+<rect class="quiet" x="260" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 3: 433 crackers fed, no squawk</title></rect>
+<rect class="s1" x="274" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 4: 735 crackers fed, squawked the flock's pick</title></rect>
+<rect class="quiet" x="288" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 5: 441 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="302" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 6: 177 crackers fed, no squawk</title></rect>
+<rect class="s1" x="316" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 7: 778 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="330" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 8: 918 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="344" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 9: 775 crackers fed, squawked the flock's pick</title></rect>
+<rect class="quiet" x="358" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 10: 467 crackers fed, no squawk</title></rect>
+<rect class="s1" x="372" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 11: 1170 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="386" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 12: 1004 crackers fed, squawked the flock's pick</title></rect>
+<rect class="quiet" x="400" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 13: 485 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="414" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 14: 483 crackers fed, no squawk</title></rect>
+<rect class="s1" x="428" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 15: 783 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="442" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 16: 502 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="456" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 17: 897 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="470" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 18: 859 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="484" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 19: 602 crackers fed, squawked the flock's pick</title></rect>
+<rect class="quiet" x="498" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 20: 424 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="512" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 21: 305 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="526" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 22: 476 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="540" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 23: 482 crackers fed, no squawk</title></rect>
+<rect class="s1" x="554" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 24: 544 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="568" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 25: 897 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="582" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 26: 506 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="596" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 27: 688 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="610" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 28: 761 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="624" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 29: 955 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="638" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 30: 918 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="652" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 31: 914 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="666" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 32: 581 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="680" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 33: 733 crackers fed, squawked the flock's pick</title></rect>
+<rect class="quiet" x="694" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 34: 317 crackers fed, no squawk</title></rect>
+<rect class="s1" x="708" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 35: 949 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="722" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 36: 709 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="736" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 37: 1098 crackers fed, squawked the flock's pick</title></rect>
+<rect class="quiet" x="750" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 38: 491 crackers fed, no squawk</title></rect>
+<rect class="s1" x="764" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 39: 1274 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="778" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 40: 599 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="792" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 41: 796 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="806" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 42: 718 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="820" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 43: 920 crackers fed, squawked the flock's pick</title></rect>
+<rect class="quiet" x="834" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 44: 474 crackers fed, no squawk</title></rect>
+<rect class="s1" x="848" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 45: 935 crackers fed, squawked the flock's pick</title></rect>
+<rect class="quiet" x="862" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 46: 389 crackers fed, no squawk</title></rect>
+<rect class="s1" x="876" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 47: 674 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="890" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 48: 990 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="904" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 49: 631 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="918" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 50: 1214 crackers fed, squawked the flock's pick</title></rect>
+<rect class="quiet" x="932" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 51: 485 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="946" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 52: 353 crackers fed, no squawk</title></rect>
+<rect class="s1" x="960" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 53: 644 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="974" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 54: 567 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="988" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 55: 524 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="1002" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 56: 647 crackers fed, squawked the flock's pick</title></rect>
+<rect class="s1" x="1016" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 57: 598 crackers fed, squawked the flock's pick</title></rect>
+<rect class="quiet" x="1030" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 58: 427 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="1044" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 59: 230 crackers fed, no squawk</title></rect>
+<rect class="s1" x="1058" y="284" width="12" height="18" rx="2"><title>Sybil swarm, day 60: 1067 crackers fed, squawked the flock's pick</title></rect>
+<text class="ink tick" x="1082" y="297" style="font-size:12px">42 of 60</text>
+<text class="ink label" x="24" y="327" style="font-size:13px">Ghost town</text>
+<rect class="quiet" x="232" y="314" width="12" height="18" rx="2"><title>Ghost town, day 1: 0 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="246" y="314" width="12" height="18" rx="2"><title>Ghost town, day 2: 0 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="260" y="314" width="12" height="18" rx="2"><title>Ghost town, day 3: 0 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="274" y="314" width="12" height="18" rx="2"><title>Ghost town, day 4: 0 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="288" y="314" width="12" height="18" rx="2"><title>Ghost town, day 5: 226 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="302" y="314" width="12" height="18" rx="2"><title>Ghost town, day 6: 0 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="316" y="314" width="12" height="18" rx="2"><title>Ghost town, day 7: 0 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="330" y="314" width="12" height="18" rx="2"><title>Ghost town, day 8: 0 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="344" y="314" width="12" height="18" rx="2"><title>Ghost town, day 9: 0 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="358" y="314" width="12" height="18" rx="2"><title>Ghost town, day 10: 0 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="372" y="314" width="12" height="18" rx="2"><title>Ghost town, day 11: 0 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="386" y="314" width="12" height="18" rx="2"><title>Ghost town, day 12: 76 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="400" y="314" width="12" height="18" rx="2"><title>Ghost town, day 13: 52 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="414" y="314" width="12" height="18" rx="2"><title>Ghost town, day 14: 0 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="428" y="314" width="12" height="18" rx="2"><title>Ghost town, day 15: 76 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="442" y="314" width="12" height="18" rx="2"><title>Ghost town, day 16: 0 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="456" y="314" width="12" height="18" rx="2"><title>Ghost town, day 17: 78 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="470" y="314" width="12" height="18" rx="2"><title>Ghost town, day 18: 36 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="484" y="314" width="12" height="18" rx="2"><title>Ghost town, day 19: 0 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="498" y="314" width="12" height="18" rx="2"><title>Ghost town, day 20: 0 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="512" y="314" width="12" height="18" rx="2"><title>Ghost town, day 21: 36 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="526" y="314" width="12" height="18" rx="2"><title>Ghost town, day 22: 0 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="540" y="314" width="12" height="18" rx="2"><title>Ghost town, day 23: 0 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="554" y="314" width="12" height="18" rx="2"><title>Ghost town, day 24: 308 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="568" y="314" width="12" height="18" rx="2"><title>Ghost town, day 25: 0 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="582" y="314" width="12" height="18" rx="2"><title>Ghost town, day 26: 92 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="596" y="314" width="12" height="18" rx="2"><title>Ghost town, day 27: 0 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="610" y="314" width="12" height="18" rx="2"><title>Ghost town, day 28: 0 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="624" y="314" width="12" height="18" rx="2"><title>Ghost town, day 29: 138 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="638" y="314" width="12" height="18" rx="2"><title>Ghost town, day 30: 0 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="652" y="314" width="12" height="18" rx="2"><title>Ghost town, day 31: 0 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="666" y="314" width="12" height="18" rx="2"><title>Ghost town, day 32: 182 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="680" y="314" width="12" height="18" rx="2"><title>Ghost town, day 33: 36 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="694" y="314" width="12" height="18" rx="2"><title>Ghost town, day 34: 0 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="708" y="314" width="12" height="18" rx="2"><title>Ghost town, day 35: 0 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="722" y="314" width="12" height="18" rx="2"><title>Ghost town, day 36: 0 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="736" y="314" width="12" height="18" rx="2"><title>Ghost town, day 37: 36 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="750" y="314" width="12" height="18" rx="2"><title>Ghost town, day 38: 0 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="764" y="314" width="12" height="18" rx="2"><title>Ghost town, day 39: 0 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="778" y="314" width="12" height="18" rx="2"><title>Ghost town, day 40: 0 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="792" y="314" width="12" height="18" rx="2"><title>Ghost town, day 41: 0 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="806" y="314" width="12" height="18" rx="2"><title>Ghost town, day 42: 0 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="820" y="314" width="12" height="18" rx="2"><title>Ghost town, day 43: 143 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="834" y="314" width="12" height="18" rx="2"><title>Ghost town, day 44: 0 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="848" y="314" width="12" height="18" rx="2"><title>Ghost town, day 45: 0 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="862" y="314" width="12" height="18" rx="2"><title>Ghost town, day 46: 36 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="876" y="314" width="12" height="18" rx="2"><title>Ghost town, day 47: 0 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="890" y="314" width="12" height="18" rx="2"><title>Ghost town, day 48: 105 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="904" y="314" width="12" height="18" rx="2"><title>Ghost town, day 49: 0 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="918" y="314" width="12" height="18" rx="2"><title>Ghost town, day 50: 73 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="932" y="314" width="12" height="18" rx="2"><title>Ghost town, day 51: 0 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="946" y="314" width="12" height="18" rx="2"><title>Ghost town, day 52: 0 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="960" y="314" width="12" height="18" rx="2"><title>Ghost town, day 53: 36 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="974" y="314" width="12" height="18" rx="2"><title>Ghost town, day 54: 64 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="988" y="314" width="12" height="18" rx="2"><title>Ghost town, day 55: 0 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="1002" y="314" width="12" height="18" rx="2"><title>Ghost town, day 56: 0 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="1016" y="314" width="12" height="18" rx="2"><title>Ghost town, day 57: 0 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="1030" y="314" width="12" height="18" rx="2"><title>Ghost town, day 58: 31 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="1044" y="314" width="12" height="18" rx="2"><title>Ghost town, day 59: 0 crackers fed, no squawk</title></rect>
+<rect class="quiet" x="1058" y="314" width="12" height="18" rx="2"><title>Ghost town, day 60: 111 crackers fed, no squawk</title></rect>
+<text class="ink tick" x="1082" y="327" style="font-size:12px">0 of 60</text>
+<text class="muted tick" x="238" y="356" text-anchor="middle">day 1</text>
+<text class="muted tick" x="364" y="356" text-anchor="middle">10</text>
+<text class="muted tick" x="504" y="356" text-anchor="middle">20</text>
+<text class="muted tick" x="644" y="356" text-anchor="middle">30</text>
+<text class="muted tick" x="784" y="356" text-anchor="middle">40</text>
+<text class="muted tick" x="924" y="356" text-anchor="middle">50</text>
+<text class="muted tick" x="1064" y="356" text-anchor="middle">60</text>
+</svg>

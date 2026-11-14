@@ -1,0 +1,13 @@
+[package]
+name = "squawk-sim"
+description = "Runs the real SQUAWK contract through 60 days of community behaviour."
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+publish = false
+
+[dependencies]
+squawk = { path = "../contract" }
+near-sdk = { workspace = true, features = ["unit-testing"] }
+near-contract-standards.workspace = true

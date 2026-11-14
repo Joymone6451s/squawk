@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 942 440" width="942" height="440" role="img" aria-labelledby="t d">
+<title id="t">Where the NEAR in the eaten crackers went, by scenario</title>
+<desc id="d">Horizontal stacked bars of NEAR paid to writers and NEAR kept as Polly's cut over 60 simulated days. Writers received between 75 and 89 percent in every scenario.</desc>
+<style>
+  .surface { fill: #fcfcfb; }
+  .ink { fill: #0b0b0b; }
+  .ink2 { fill: #52514e; }
+  .muted { fill: #898781; }
+  .grid { stroke: #e1e0d9; stroke-width: 1; }
+  .axis { stroke: #c3c2b7; stroke-width: 1; }
+  .s1 { fill: #2a78d6; }
+  .s1-line { stroke: #2a78d6; stroke-width: 2; fill: none; stroke-linejoin: round; stroke-linecap: round; }
+  .s1-wash { fill: #2a78d6; fill-opacity: 0.1; }
+  .s2 { fill: #eb6834; }
+  .quiet { fill: #e1e0d9; }
+  .ring { stroke: #fcfcfb; stroke-width: 2; }
+  text { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
+  .title { font-size: 15px; font-weight: 600; }
+  .label { font-size: 12px; }
+  .tick { font-size: 11px; font-variant-numeric: tabular-nums; }
+  .inside { fill: #ffffff; font-size: 11px; font-weight: 600; }
+  @media (prefers-color-scheme: dark) {
+    .surface { fill: #1a1a19; }
+    .ink { fill: #f0efec; }
+    .ink2 { fill: #c3c2b7; }
+    .grid { stroke: #2c2c2a; }
+    .axis { stroke: #383835; }
+    .s1 { fill: #3987e5; }
+    .s1-line { stroke: #3987e5; }
+    .s1-wash { fill: #3987e5; }
+    .s2 { fill: #d95926; }
+    .quiet { fill: #2c2c2a; }
+    .ring { stroke: #1a1a19; }
+  }</style>
+<rect class="surface" width="942" height="440" rx="8"/>
+<text class="ink title" x="24" y="30" style="font-size:17px">Where the NEAR in the eaten crackers went</text>
+<text class="ink2 label" x="24" y="50">Total over 60 days. Every cracker fed released 0.001 NEAR: most to the post's writer, the rest to Polly's hoard.</text>
+<rect class="s1" x="24" y="64" width="12" height="12" rx="2"/><text class="ink2 label" x="42" y="74">Paid to writers</text>
+<rect class="s2" x="150" y="64" width="12" height="12" rx="2"/><text class="ink2 label" x="168" y="74">Polly's cut</text>
+<line class="axis" x1="232" x2="232" y1="90" y2="392"/>
+<text class="muted tick" x="232" y="408" text-anchor="middle">0</text>
+<line class="grid" x1="336" x2="336" y1="90" y2="392"/>
+<text class="muted tick" x="336" y="408" text-anchor="middle">25</text>
+<line class="grid" x1="440" x2="440" y1="90" y2="392"/>
+<text class="muted tick" x="440" y="408" text-anchor="middle">50</text>
+<line class="grid" x1="544" x2="544" y1="90" y2="392"/>
+<text class="muted tick" x="544" y="408" text-anchor="middle">75</text>
+<line class="grid" x1="648" x2="648" y1="90" y2="392"/>
+<text class="muted tick" x="648" y="408" text-anchor="middle">100</text>
+<line class="grid" x1="752" x2="752" y1="90" y2="392"/>
+<text class="muted tick" x="752" y="408" text-anchor="middle">125</text>
+<text class="muted tick" x="752" y="424" text-anchor="end">NEAR</text>
+<text class="ink label" x="24" y="110" style="font-size:13px">Steady flock</text>
+<rect class="s1" x="232" y="96" width="129.66" height="20"><title>Steady flock: 31.17 NEAR paid to writers (77%)</title></rect>
+<path class="s2" d="M363.66 96h32.76a4 4 0 0 1 4 4v12a4 4 0 0 1-4 4h-32.76z"><title>Steady flock: 9.32 NEAR kept as Polly's cut</title></path>
+<text class="inside" x="240" y="110">77%</text>
+<text class="ink tick" x="408.42" y="110" style="font-size:12px">31.2 to writers, 9.3 to Polly</text>
+<text class="ink label" x="24" y="148" style="font-size:13px">Slow start, then it catches on</text>
+<rect class="s1" x="232" y="134" width="206.99" height="20"><title>Slow start, then it catches on: 49.76 NEAR paid to writers (86%)</title></rect>
+<path class="s2" d="M440.99 134h27.95a4 4 0 0 1 4 4v12a4 4 0 0 1-4 4h-27.95z"><title>Slow start, then it catches on: 8.16 NEAR kept as Polly's cut</title></path>
+<text class="inside" x="240" y="148">86%</text>
+<text class="ink tick" x="480.93" y="148" style="font-size:12px">49.8 to writers, 8.2 to Polly</text>
+<text class="ink label" x="24" y="186" style="font-size:13px">Hype, then it fades</text>
+<rect class="s1" x="232" y="172" width="56.91" height="20"><title>Hype, then it fades: 13.68 NEAR paid to writers (77%)</title></rect>
+<path class="s2" d="M290.91 172h11.41a4 4 0 0 1 4 4v12a4 4 0 0 1-4 4h-11.41z"><title>Hype, then it fades: 4.18 NEAR kept as Polly's cut</title></path>
+<text class="inside" x="240" y="186">77%</text>
+<text class="ink tick" x="314.31" y="186" style="font-size:12px">13.7 to writers, 4.2 to Polly</text>
+<text class="ink label" x="24" y="224" style="font-size:13px">Quiet weekends</text>
+<rect class="s1" x="232" y="210" width="96.17" height="20"><title>Quiet weekends: 23.12 NEAR paid to writers (76%)</title></rect>
+<path class="s2" d="M330.17 210h24.04a4 4 0 0 1 4 4v12a4 4 0 0 1-4 4h-24.04z"><title>Quiet weekends: 7.22 NEAR kept as Polly's cut</title></path>
+<text class="inside" x="240" y="224">76%</text>
+<text class="ink tick" x="366.21" y="224" style="font-size:12px">23.1 to writers, 7.2 to Polly</text>
+<text class="ink label" x="24" y="262" style="font-size:13px">One loud self-promoter</text>
+<rect class="s1" x="232" y="248" width="233.82" height="20"><title>One loud self-promoter: 56.21 NEAR paid to writers (88%)</title></rect>
+<path class="s2" d="M467.82 248h25a4 4 0 0 1 4 4v12a4 4 0 0 1-4 4h-25z"><title>One loud self-promoter: 7.45 NEAR kept as Polly's cut</title></path>
+<text class="inside" x="240" y="262">88%</text>
+<text class="ink tick" x="504.82" y="262" style="font-size:12px">56.2 to writers, 7.5 to Polly</text>
+<text class="ink label" x="24" y="300" style="font-size:13px">Last-minute sniper</text>
+<rect class="s1" x="232" y="286" width="370.88" height="20"><title>Last-minute sniper: 89.15 NEAR paid to writers (88%)</title></rect>
+<path class="s2" d="M604.88 286h43.1a4 4 0 0 1 4 4v12a4 4 0 0 1-4 4h-43.1z"><title>Last-minute sniper: 11.80 NEAR kept as Polly's cut</title></path>
+<text class="inside" x="240" y="300">88%</text>
+<text class="ink tick" x="659.98" y="300" style="font-size:12px">89.2 to writers, 11.8 to Polly</text>
+<text class="ink label" x="24" y="338" style="font-size:13px">Sybil swarm</text>
+<rect class="s1" x="232" y="324" width="130.19" height="20"><title>Sybil swarm: 31.30 NEAR paid to writers (77%)</title></rect>
+<path class="s2" d="M364.19 324h32.61a4 4 0 0 1 4 4v12a4 4 0 0 1-4 4h-32.61z"><title>Sybil swarm: 9.28 NEAR kept as Polly's cut</title></path>
+<text class="inside" x="240" y="338">77%</text>
+<text class="ink tick" x="408.8" y="338" style="font-size:12px">31.3 to writers, 9.3 to Polly</text>
+<text class="ink label" x="24" y="376" style="font-size:13px">Ghost town</text>
+<rect class="s1" x="232" y="362" width="6.14" height="20"><title>Ghost town: 1.48 NEAR paid to writers (75%)</title></rect>
+<path class="s2" d="M240.14 362h0a4 4 0 0 1 4 4v12a4 4 0 0 1-4 4h-0z"><title>Ghost town: 0.49 NEAR kept as Polly's cut</title></path>
+<text class="ink tick" x="248.19" y="376" style="font-size:12px">1.5 to writers, 0.5 to Polly</text>
+</svg>

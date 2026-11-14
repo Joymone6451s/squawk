@@ -1,0 +1,21 @@
+[package]
+name = "squawk"
+description = "SQUAWK: a NEP-141 memecoin whose contract is a keyless near.social account. Feed it to tip any post; each round it quotes the best-fed one."
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+near-sdk.workspace = true
+near-contract-standards.workspace = true
+
+[dev-dependencies]
+near-sdk = { workspace = true, features = ["unit-testing"] }
+
+[lints.rust.unexpected_cfgs]
+level = "warn"
+check-cfg = ['cfg(near)']
