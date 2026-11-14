@@ -28,7 +28,7 @@ const state = {
   records: [],
   log: [],
   logPage: 0,
-  tab: "latest",
+  tab: "fed",
   feed: [],
   keys: null,
   dialog: null,
@@ -248,14 +248,19 @@ async function loadFeed() {
   const empty = $("feed-empty");
   const socialId = state.rules.social;
   const query = $("find-input").value.trim();
-  $("find-form").hidden = state.tab === "latest";
+  $("find-form").hidden = state.tab === "latest" || state.tab === "fed";
   const example = NETWORK === "mainnet" ? "alice.near" : "alice.testnet";
   $("find-input").placeholder = state.tab === "account" ? example : `${example}/1759140000000${SOCIAL_SITE ? " or a near.social link" : ""}`;
   empty.hidden = true;
   list.setAttribute("aria-busy", "true");
   try {
     let posts = [];
-    if (state.tab === "latest") posts = await social.latestPosts(socialId, 12);
+    if (state.tab === "fed") {
+      // The posts this coin's flock has fed, newest first, straight from the contract's log.
+      const fed = state.log.filter((e) => e.kind === "Feed").map((e) => e.post).reverse();
+      const keys = [...new Set(fed)].slice(0, 12);
+      posts = await Promise.all(keys.map(async (key) => (await social.getPost(socialId, key)) ?? ghostPost(key)));
+    } else if (state.tab === "latest") posts = await social.latestPosts(socialId, 12);
     else if (state.tab === "account") {
       if (!query) posts = [];
       else if (!social.isAccountId(query)) throw new Error("That is not a NEAR account name.");
@@ -269,7 +274,16 @@ async function loadFeed() {
     state.feed = posts;
     list.innerHTML = posts.map((post) => postCard(post)).join("");
     if (!posts.length) {
-      empty.textContent = state.tab === "latest" ? "No posts yet." : query ? "Nothing found." : state.tab === "account" ? "Type an account to see its posts." : "Paste a post to feed it.";
+      empty.textContent =
+        state.tab === "fed"
+          ? "Nobody has fed a post on this coin yet. Look under Latest posts or By account."
+          : state.tab === "latest"
+            ? "No posts yet."
+            : query
+              ? "Nothing found."
+              : state.tab === "account"
+                ? "Type an account to see its posts."
+                : "Paste a post to feed it.";
       empty.hidden = false;
     }
   } catch (error) {
