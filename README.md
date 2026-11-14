@@ -10,6 +10,9 @@ NEAR HACKATHON entry, track `memecoins` (Memecoins With Mechanics).
 real transaction on the live testnet coin: bake, feed a post, the round reaching its target,
 someone waking Polly, and her post on near.social written by the contract.
 
+**Live page:** https://joymone6451s.github.io/squawk/ (NEAR testnet). It reads the chain directly,
+with no backend.
+
 ## What it is
 
 Polly is a parrot. Her account on near.social is this contract, and the account has no access
@@ -83,10 +86,15 @@ The writers and fans in the demo (`maya`, `leo`, `zoe`, `ana` and `sam`, all
 
 ## Try it
 
-Everything below runs against the live testnet coins. Steps 1 to 3 need no wallet and no key.
+Everything below runs against the live testnet coins.
 
-Requirements: Node 20 or newer. For steps 5 and 6, Rust 1.95 with the `wasm32-unknown-unknown`
-target and `cargo-near`.
+**0. Open the page.** Do: open https://joymone6451s.github.io/squawk/ and press `Speedrun` at the
+top. See: Polly, the current round with its countdown, the crackers fed against the target, the
+streak, this round's piles, what Polly said in past rounds, the books with their checks, and
+every mint and burn. Connect a testnet wallet to bake and feed. Nothing to install.
+
+Steps 1 to 8 need Node 20 or newer, and steps 5 and 6 also need Rust 1.95 with the
+`wasm32-unknown-unknown` target and `cargo-near`. Steps 1 to 3 need no wallet and no key.
 
 ```
 npm install
@@ -158,7 +166,7 @@ about fifteen minutes and about 6 test NEAR, most of it the contract's storage.
 | An NEP-141 token with the mechanic in the contract, not in a backend | `contract/src/lib.rs`. There is no backend: the page reads the chain directly, and Polly's posts are receipts sent by the contract. |
 | All parameters set at launch and readable by anyone, with no admin key | `Rules` in `contract/src/rules.rs`, the `rules` view, and step 1's key check. The contract has no method that writes a rule. |
 | Sybil resistance good enough for a demo, with its limits written plainly | "Sybils and other limits" below. |
-| A page with the current streak, today's progress and a log of every mint and burn | `web/`. The log is the contract's own `log` view, complete from the first bake. |
+| A page with the current streak, today's progress and a log of every mint and burn | `web/`, live at https://joymone6451s.github.io/squawk/. The log is the contract's own `log` view, complete from the first bake. |
 | Simulate 60 days of community behaviour first, show supply over time under a few scenarios, then pick the parameters | [docs/SIMULATION.md](docs/SIMULATION.md): eight scenarios run through the real contract code, a sweep of 216 rule sets, and the reasoning for each number. |
 
 Track hints used: NEP-141, token mechanics, memecoins.
